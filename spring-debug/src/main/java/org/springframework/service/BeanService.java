@@ -6,7 +6,6 @@ package org.springframework.service;
  * @description
  */
 public interface BeanService {
-	
 	/**
 	 * 打印name
 	 * @param name name
