@@ -1,7 +1,7 @@
-package org.springframework;
+package org.springframework.debug;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.service.impl.StudentBeanServiceImpl;
+import org.springframework.debug.service.impl.StudentBeanServiceImpl;
 
 /**
  * @author fanyufeng
