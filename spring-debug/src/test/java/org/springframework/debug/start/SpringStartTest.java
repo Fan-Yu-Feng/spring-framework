@@ -1,4 +1,4 @@
-package org.springframework.start;
+package org.springframework.debug.start;
 
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 /**
  * @author yohong
  * @date 2024/4/14 10:54
- * @description desc
+ * @description Spring debug 测试
  */
 public class SpringStartTest {
 	
