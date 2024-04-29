@@ -998,7 +998,7 @@ public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFacto
 
 		Assert.hasText(beanName, "Bean name must not be empty");
 		Assert.notNull(beanDefinition, "BeanDefinition must not be null");
-
+		// JAVA 14 的新语法，beanDefinition 是一个实例对象，AbstractBeanDefinition 是一个类或接口。abd 是一个新引入的局部变量，它用于存储 beanDefinition 对象的转换结果。如果 beanDefinition 是 AbstractBeanDefinition 或其子类的实例，那么 abd 将引用这个对象，否则 abd 将为 null。
 		if (beanDefinition instanceof AbstractBeanDefinition abd) {
 			try {
 				abd.validate();
