@@ -8,7 +8,7 @@ import org.springframework.debug.service.impl.StudentBeanServiceImpl;
 /**
  * @author yohong
  * @date 2024/4/29 23:34
- * @description desc
+ * @description bean 的生命周期单元测试
  */
 public class BeanCycleTest {
 	

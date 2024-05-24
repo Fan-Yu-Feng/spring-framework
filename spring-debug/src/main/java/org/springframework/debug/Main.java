@@ -11,7 +11,7 @@ import org.springframework.debug.service.impl.StudentBeanServiceImpl;
 public class Main {
 	public static void main(String[] args) {
 		AnnotationConfigApplicationContext annotationConfigApplicationContext=new AnnotationConfigApplicationContext("org.springframework.service.*");
-		StudentBeanServiceImpl studentBeanServiceImpl = (StudentBeanServiceImpl) annotationConfigApplicationContext.getBean("studentBeanService");
+		StudentBeanServiceImpl studentBeanServiceImpl = (StudentBeanServiceImpl) annotationConfigApplicationContext.getBean("studentBeanServiceImpl");
 		studentBeanServiceImpl.printName("asd");
 		System.out.println("----"+ studentBeanServiceImpl);
 	}
